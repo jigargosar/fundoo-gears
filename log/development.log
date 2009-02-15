@@ -1,0 +1,292 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-15 08:09:12) [GET]
+  Session ID: 57390604ae030f83364b6c6331ef7982
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/app.html" with {:method=>:get}):
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-15 08:09:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--9b7d48d4afe911db3c6885ed433c85d7932013ee
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/app.html" with {:method=>:get}):
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-15 08:09:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--9b7d48d4afe911db3c6885ed433c85d7932013ee
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/app.js" with {:method=>:get}):
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-15 08:09:35) [GET]
+  Session ID: e684f38cb65f76ff004f551cb4fa02d8
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/app.js" with {:method=>:get}):
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-15 08:09:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--9b7d48d4afe911db3c6885ed433c85d7932013ee
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/app.js" with {:method=>:get}):
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-15 08:19:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--9b7d48d4afe911db3c6885ed433c85d7932013ee
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/gears_init.js" with {:method=>:get}):
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-02-15 08:19:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--9b7d48d4afe911db3c6885ed433c85d7932013ee
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/app.js" with {:method=>:get}):
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:112:in `handle_dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:78:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/webrick_server.rb:62:in `dispatch'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/servers/webrick.rb:66
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    d:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.1.1/lib/active_support/dependencies.rb:510:in `require'
+    d:/ruby/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/commands/server.rb:39
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    d:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering d:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/templates/rescues/layout.erb (not_found)

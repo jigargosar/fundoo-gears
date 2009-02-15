@@ -1,0 +1,9 @@
+{
+  "betaManifestVersion": 1,
+  "version": "0.0.9",
+  "entries": [    
+    { "url": "javascripts/application.js"},
+    { "url": "javascripts/gears_init.js"},
+    { "url": ".", "redirect":"index.html"},
+    { "url": "index.html"}]
+}
